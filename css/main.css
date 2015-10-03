@@ -1,0 +1,172 @@
+body{
+	height:100%;
+	padding: 0px;
+	margin: 0px;
+	font-family: "微软雅黑";
+    background: #006666;
+}
+
+.maincontainer{
+	background: #006666;
+	height: 100%;
+}
+
+.top{
+	position: relative;
+	width: 100%;
+	background: #ddd;
+}
+
+.banner{
+	background: url("../img/bac2.jpg") no-repeat fixed;
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+    -moz-background-size:100% 100%;  
+    background-size:100% 100%;  
+	position: relative;
+	height: 400px;
+	width: 100%;
+}
+
+.fenge{
+	margin: 5px auto;
+	height: 1px;
+	width: 520px;
+    background: white;
+}
+
+.ph1{
+	height: 61.8%;
+    width: 100%;
+}
+
+.photograph1{
+	position: absolute;
+	left:50%;
+	bottom:50%;
+	height: 100px;
+	width: 100px;
+	transform: translate(-50%, 0%); 
+    display: block;
+    border-radius:50%;
+    background: #fff;
+}
+
+#topmenu{
+	height: 38.2%;
+	width: 100%;
+	background: #fff;
+	margin: 0;
+	position: absolute;
+}
+#navbar{
+	margin-bottom: 0 !important;
+}
+
+
+
+.head-title1{
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+}
+
+
+
+
+.left{
+	padding:0;
+	position: relative;
+	float: left;
+	width: 61.8%;
+	background: #006666;
+}
+
+.article{
+
+	margin: 20px 15px;
+    padding: 10px 20px;
+    padding-top: 20px;
+    border-style: outset;
+    border-width: 1px;
+    border-color: #FFF;
+    background-color: white;
+}
+
+.title{
+
+	font-size: 18px;
+}
+.title a{
+	color: red;
+	text-decoration: none;
+}
+
+.sumary{
+		margin-top: 10px;
+    padding: 10px 10px;
+    border-style: outset;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #FFF;
+    background-color: #CCC;
+}
+
+.date{
+	margin-top: 10px;
+}
+
+.date a{
+	text-decoration: none;
+    
+}
+
+
+
+
+
+.right{
+	position: relative;
+	float: right;
+	width: 38.2%;
+	background: #006666;
+}
+
+.right-banner{
+	margin:20px 20px;
+	background: #fff;
+}
+
+#banner-top{
+	padding: 0px;
+	width: 100%;
+	font-size: 16px;
+	color: white;
+	background: #006666;
+}
+
+#banner-content{
+	padding: 10px;
+}
+
+#banner-content a{
+	color: black;
+}
+
+
+
+.boot{
+	float: left;
+	margin: 0;
+	bottom: 0;
+	padding: 13px;
+    height: 70px;
+    width: 100%;
+    /* bottom: 100px; */
+    color: #999;
+    background-color: #333;
+    text-align: center;
+}
+
+.boot p{
+	margin:0;
+}

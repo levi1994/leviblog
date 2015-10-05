@@ -1,0 +1,26 @@
+--manager 管理员表
+      username varchar(20)
+      password varchar(20)
+--article 文章表
+      art_id varchar  ID
+      art_category int  分类
+      art_title varchar(100) 标题
+      art_des varchar(100) 描述
+      art_content text(60000) 内容
+      art_readtime int  阅读次数
+      art_like int  喜悦次数
+      art_photo varchar  图片
+--category 分类表
+      category_id int   ID
+      category_name varchar() 分类名称
+      category_des varchar()  分类描述
+      
+--message 留言表  --暂未开启
+      mes_id int
+      mes_content varchar
+      mes_name varchar
+      mes_connect varchar
+--comment 评论表 暂未开启
+      com_id int
+      com_mes varchar()
+
